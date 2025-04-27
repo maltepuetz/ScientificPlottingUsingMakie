@@ -1,0 +1,12 @@
+.vscode/*
+
+loaddata.jl
+
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+*.bib
+*.pdf

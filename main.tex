@@ -1,0 +1,96 @@
+\documentclass[aps,prl,twocolumn,longbibliography,superscriptaddress]{revtex4-2}
+
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{dsfont}
+\usepackage{diagbox}
+\usepackage{array}
+\usepackage{amssymb}
+\usepackage{bbm}
+\usepackage{bm}
+\usepackage{float}
+\usepackage{subfigure}
+\usepackage{MnSymbol}
+\usepackage{url}
+\usepackage{times}
+\usepackage{manfnt}
+\usepackage{booktabs}
+\usepackage{xcolor}
+\definecolor{darkblue}{HTML}{004D6B}
+\definecolor{darkred}{HTML}{8c1515}
+\definecolor{darkgreen}{HTML}{006400}
+\usepackage{hyperref}
+\hypersetup{
+    pdftitle={measuringIsingState},
+	colorlinks=true,
+	urlcolor=darkred,
+	citecolor=darkblue,
+	linkcolor=darkred,
+	breaklinks
+}
+\pagecolor{white}
+\usepackage{physics}
+\usepackage{enumitem}
+\usepackage{wasysym}
+\usepackage{tikz}
+
+
+\usepackage[english]{babel}
+\usepackage{blindtext}
+
+\makeatletter 
+
+\begin{document}
+
+\title{This is an awesome paper that you should definetly read... Atleast look at the figures!}
+
+\author{First Author}
+\affiliation{First Affiliation, City, State, Zip Code, Country}
+\author{Second Author}
+\affiliation{Second Affiliation, City, State, Zip Code, Country}
+\author{Third Author}
+\affiliation{Third Affiliation, City, State, Zip Code, Country}
+
+\date{\today}
+\begin{abstract}
+    \blindtext
+\end{abstract}
+
+\maketitle
+
+
+
+% This font size is \the\fontdimen6\font.
+
+% {\small When we switch to `small` font, the font size is \the\fontdimen6\font.}
+
+% {\footnotesize When we switch to `footnotesize` font, the font size is \the\fontdimen6\font.}
+
+% {\scriptsize When we switch to `scriptsize` font, the font size is \the\fontdimen6\font.}
+
+
+
+
+% The textwidth of this document is \the\textwidth.
+
+% The columnwidth of this document is \the\columnwidth.
+
+\blindtext[2]
+
+\begin{figure}[t!]
+    \includegraphics[width=\columnwidth]{figs/figure9.pdf}
+    \caption{
+        {\bf Main point of the figure}.
+        % This font size is \the\fontdimen6\font.
+        % 
+        \blindtext
+    }
+    \label{fig:Ic}
+\end{figure}
+
+
+\blinddocument
+
+\clearpage
+\end{document}
